@@ -1,0 +1,7 @@
+{
+  "name": "video-recording",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

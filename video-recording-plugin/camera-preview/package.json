@@ -1,0 +1,55 @@
+{
+  "_args": [
+    [
+      "@ionic-native/camera-preview@5.10.0",
+      "E:\\working_project\\saarthi-schools-app"
+    ]
+  ],
+  "_from": "@ionic-native/camera-preview@5.10.0",
+  "_id": "@ionic-native/camera-preview@5.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-M9U83+JBMlSYhefUeqQ9dzzX4gZWCa0tlJ2OvSSXlKe1rHCdkFmPpO7coJC07JYXdlOSB0box0cDLasDUDuRMg==",
+  "_location": "/@ionic-native/camera-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ionic-native/camera-preview@5.10.0",
+    "name": "@ionic-native/camera-preview",
+    "escapedName": "@ionic-native%2fcamera-preview",
+    "scope": "@ionic-native",
+    "rawSpec": "5.10.0",
+    "saveSpec": null,
+    "fetchSpec": "5.10.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/camera-preview/-/camera-preview-5.10.0.tgz",
+  "_spec": "5.10.0",
+  "_where": "E:\\working_project\\saarthi-schools-app",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/camera-preview",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "5.10.0"
+}
