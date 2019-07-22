@@ -50,20 +50,6 @@ meteor add cordova:cordova-plugin-camera-preview@X.X.X
 <gap:plugin name="cordova-plugin-camera-preview" />
 ```
 
-#### iOS Quirks
-If you are developing for iOS 10+ you must also add the following to your config.xml
-
-```xml
-<config-file platform="ios" target="*-Info.plist" parent="NSCameraUsageDescription" overwrite="true">
-  <string>Allow the app to use your camera</string>
-</config-file>
-
-<!-- or for Phonegap -->
-
-<gap:config-file platform="ios" target="*-Info.plist" parent="NSCameraUsageDescription" overwrite="true">
-  <string>Allow the app to use your camera</string>
-</gap:config-file>
-```
 
 ### Android Quirks (older devices)
 When using the plugin for older devices, the camera preview will take the focus inside the app once initialized.
@@ -223,6 +209,13 @@ CameraPreview.show();
 ```javascript
 CameraPreview.hide();
 ```
+
+### startRecording(successCallback, [errorCallback])
+this method is used to start recording
+
+### stopRecording(successCallback, [errorCallback])
+this method is used to stop recording and also return video path
+
 
 ### takePicture(options, successCallback, [errorCallback])
 
@@ -584,19 +577,9 @@ Note: Use AUTO to allow the device automatically adjusts the exposure once and t
 | TWILIGHT | string | twilight | |
 | WARM_FLUORESCENT | string | warm-fluorescent | |
 
-# IOS Quirks
-It is not possible to use your computers webcam during testing in the simulator, you must device test.
-
-# Sample App
-
-<a href="https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview-sample-app">cordova-plugin-camera-preview-sample-app</a> for a complete working Cordova example for Android and iOS platforms.
-
-# Screenshots
-
-<img src="https://raw.githubusercontent.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/master/img/android-1.png"/> <img hspace="20" src="https://raw.githubusercontent.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/master/img/android-2.png"/>
 
 # Credits
 
-Maintained by Weston Ganger - [@westonganger](https://github.com/westonganger)
+Maintained by Weston Ganger - [@westonganger](https://github.com/vivekmakwana)
 
-Created by Marcel Barbosa Pinto [@mbppower](https://github.com/mbppower)
+Created by Marcel Barbosa Pinto [@mbppower](https://github.com/vivekmakwana)
