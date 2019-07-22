@@ -501,12 +501,11 @@ CameraPreview.onBackButton(function() {
 | --- | --- | --- | --- |
 | FIXED | string | fixed |  |
 | AUTO | string | auto |  |
-| CONTINUOUS | string | continuous | IOS Only |
-| CONTINUOUS_PICTURE | string | continuous-picture | Android Only |
-| CONTINUOUS_VIDEO | string | continuous-video | Android Only |
-| EDOF | string | edof | Android Only |
-| INFINITY | string | infinity | Android Only |
-| MACRO | string | macro | Android Only |
+| CONTINUOUS_PICTURE | string | continuous-picture |  |
+| CONTINUOUS_VIDEO | string | continuous-video | |
+| EDOF | string | edof |  |
+| INFINITY | string | infinity |  |
+| MACRO | string | macro |  |
 
 <a name="camera_Settings.FlashMode"></a>
 
@@ -519,7 +518,7 @@ CameraPreview.onBackButton(function() {
 | OFF | string | off |  |
 | ON | string | on |  |
 | AUTO | string | auto |  |
-| RED_EYE | string | red-eye | Android Only |
+| RED_EYE | string | red-eye |  |
 | TORCH | string | torch |  |
 
 <a name="camera_Settings.CameraDirection"></a>
@@ -541,15 +540,15 @@ CameraPreview.onBackButton(function() {
 
 | Name | Type | Default | Note |
 | --- | --- | --- | --- |
-| AQUA | string | aqua | Android Only |
-| BLACKBOARD | string | blackboard | Android Only |
+| AQUA | string | aqua |  |
+| BLACKBOARD | string | blackboard |  |
 | MONO | string | mono | |
 | NEGATIVE | string | negative | |
 | NONE | string | none | |
 | POSTERIZE | string | posterize | |
 | SEPIA | string | sepia | |
-| SOLARIZE | string | solarize | Android Only |
-| WHITEBOARD | string | whiteboard | Android Only |
+| SOLARIZE | string | solarize |  |
+| WHITEBOARD | string | whiteboard | |
 
 <a name="camera_Settings.ExposureMode"></a>
 
@@ -559,10 +558,8 @@ CameraPreview.onBackButton(function() {
 
 | Name | Type | Default | Note |
 | --- | --- | --- | --- |
-| AUTO | string | auto | IOS Only |
 | CONTINUOUS | string | continuous | |
 | CUSTOM | string | custom | |
-| LOCK | string | lock | IOS Only |
 
 Note: Use AUTO to allow the device automatically adjusts the exposure once and then changes the exposure mode to LOCK.
 
@@ -576,7 +573,6 @@ Note: Use AUTO to allow the device automatically adjusts the exposure once and t
 | --- | --- | --- | --- |
 | LOCK | string | lock | |
 | AUTO | string | auto | |
-| CONTINUOUS | string | continuous | IOS Only |
 | INCANDESCENT | string | incandescent | |
 | CLOUDY_DAYLIGHT | string | cloudy-daylight | |
 | DAYLIGHT | string | daylight | |
