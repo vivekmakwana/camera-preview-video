@@ -588,6 +588,6 @@ Note: Use AUTO to allow the device automatically adjusts the exposure once and t
 
 # Credits
 
-Maintained by Weston Ganger - [@westonganger](https://github.com/vivekmakwana)
+Maintained by Vivek Makwana - [@vivekmakwana](https://github.com/vivekmakwana)
 
-Created by Marcel Barbosa Pinto [@mbppower](https://github.com/vivekmakwana)
+Created by Vivek Makwana [@vivekmakwana](https://github.com/vivekmakwana)
