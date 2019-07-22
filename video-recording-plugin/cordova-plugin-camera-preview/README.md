@@ -212,9 +212,17 @@ CameraPreview.hide();
 
 ### startRecording(successCallback, [errorCallback])
 this method is used to start recording
+```javascript
+CameraPreview.startRecording();
+```
 
 ### stopRecording(successCallback, [errorCallback])
 this method is used to stop recording and also return video path
+
+
+```javascript
+CameraPreview.stopRecording();
+```
 
 
 ### takePicture(options, successCallback, [errorCallback])
